@@ -1,0 +1,300 @@
+#title
+{
+	background-image: url("fireplace.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 5% 10% 3.5% 10%;
+}
+body
+{
+	text-align: center;
+	background-color: indianred;
+}
+.navbar
+{
+	margin-bottom: 50px;
+	font-family: 'monteserrat', sans-serif;
+	font-weight: bold;
+}
+.navbar-brand
+{
+	font-size: 2rem;
+	margin-left: 0px;
+	padding: 0 0;
+}
+.nav-item
+{
+	padding: 0 18px;
+}
+@media (max-width: 991px)
+{
+	.nav-link
+	{
+		text-align: left;
+	}
+}
+.title-write
+{
+	text-align: left;
+	font-family: 'Montserrat', sans-serif;
+}
+.whi
+{
+	color: white;
+	padding: 3% 10%;
+	font-size: 2rem;
+	font-weight: bold;
+}
+.whi.bonus {
+  text-shadow:
+     3px  3px 0 #000,
+    -5px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+}
+
+@supports (-webkit-text-stroke: 2px black) {
+  .whi {
+    -webkit-text-stroke: 1.1px black;
+    -webkit-text-fill-color: white;
+  }
+}
+
+.backDoor
+{
+  background-image: url("Tom.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 5% 10% 3.5% 10%;
+  position:relative;
+  width:300px;
+  height:400px;
+  
+  margin: 0 auto;
+  margin-top:50px;
+}
+
+.door
+{
+  background-image: url("xmas_door.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 5% 10% 3.5% 10%;
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:300px;
+  height:400px;
+ 
+  transform-origin: left;
+  /*Speed of the Door animation*/
+  transition: all 0.5s ease-in-out;
+}
+.backDoor1
+{
+  background-image: url("pikachu.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 5% 10% 3.5% 10%;
+  position:relative;
+  width:300px;
+  height:400px;
+  
+  margin: 0 auto;
+  margin-top:50px;
+}
+
+.door1
+{
+  background-image: url("xmas_door.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 5% 10% 3.5% 10%;
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:300px;
+  height:400px;
+ 
+  transform-origin: left;
+  /*Speed of the Door animation*/
+  transition: all 0.5s ease-in-out;
+}
+.backDoor2
+{
+  background-image: url("TomHolland.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 5% 10% 3.5% 10%;
+  position:relative;
+  width:300px;
+  height:400px;
+  
+  margin: 0 auto;
+  margin-top:50px;
+}
+
+.door2
+{
+  background-image: url("xmas_door.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 5% 10% 3.5% 10%;
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:300px;
+  height:400px;
+ 
+  transform-origin: left;
+  /*Speed of the Door animation*/
+  transition: all 0.5s ease-in-out;
+}
+.backDoor3
+{
+  background-image: url("xmas_scenery.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 5% 10% 3.5% 10%;
+  position:relative;
+  width:300px;
+  height:400px;
+  
+  margin: 0 auto;
+  margin-top:50px;
+}
+
+.door3
+{
+  background-image: url("xmas_door.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 5% 10% 3.5% 10%;
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:300px;
+  height:400px;
+ 
+  transform-origin: left;
+  /*Speed of the Door animation*/
+  transition: all 0.5s ease-in-out;
+}
+.backDoor4
+{
+  background-image: url("Dog.jpeg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 5% 10% 3.5% 10%;
+  position:relative;
+  width:300px;
+  height:400px;
+  
+  margin: 0 auto;
+  margin-top:50px;
+}
+
+.door4
+{
+  background-image: url("xmas_door.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 5% 10% 3.5% 10%;
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:300px;
+  height:400px;
+ 
+  transform-origin: left;
+  /*Speed of the Door animation*/
+  transition: all 0.5s ease-in-out;
+}
+.backDoor5
+{
+  background-image: url("roy_x-mas.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 5% 10% 3.5% 10%;
+  position:relative;
+  width:300px;
+  height:400px;
+  
+  margin: 0 auto;
+  margin-top:50px;
+}
+
+.door5
+{
+  background-image: url("xmas_door.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 5% 10% 3.5% 10%;
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:300px;
+  height:400px;
+ 
+  transform-origin: left;
+  /*Speed of the Door animation*/
+  transition: all 0.5s ease-in-out;
+}
+.doorOpen
+{
+  /*prespectiv creates the door open effect*/
+  transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-105deg);
+}
+.doorOpen1
+{
+  /*prespectiv creates the door open effect*/
+  transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-105deg);
+}
+.doorOpen2
+{
+  /*prespectiv creates the door open effect*/
+  transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-105deg);
+}
+.doorOpen3
+{
+  /*prespectiv creates the door open effect*/
+  transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-105deg);
+}
+.doorOpen4
+{
+  /*prespectiv creates the door open effect*/
+  transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-105deg);
+}
+.doorOpen5
+{
+  /*prespectiv creates the door open effect*/
+  transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-105deg);
+}
+
+.gift
+{
+	background-color: indianred;
+}
+.rhyme
+{
+	padding: 5% 10%;
+	text-align: center;
+}
+#cel
+{
+	background-image: url("https://lh3.googleusercontent.com/proxy/fU8w5Y00Lv5ZuvTMWngOngJ0NIxyD0H69C2wHLhJqP_f3k1j95fVIZtcbloc5eu88aAiaOJ5yRDwXDb7hEo1Ig6jRS6b7xkOCQrbjglAI91bb6w5Ud6sS7cbsVaP0tuD-oDRVD_ZebcCO3HladMD95Q");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 5% 10% 3.5% 10%;
+}
+#cel_write
+{
+	padding: 20% 0.5%;
+	text-align: left;
+}
+#foot
+{
+	font-family: 'Montserrat', sans-serif;
+	padding: 5% 10% 2% 10%;
+}

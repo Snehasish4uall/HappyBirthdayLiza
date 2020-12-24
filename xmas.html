@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>Christmas</title>
+  </head>
+  <body>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="xmas_styles.css">
+
+    <div id="title">
+      <nav class="navbar navbar-expand-lg navbar-dark navbar-bg-dark">
+        <a href="#" class="navbar-brand"><b>Merry Christmas</b></a>
+      </nav>
+      <div class="title-write">
+        <h1 class="whi">Hello Santa</h1>
+        <h6 class="whi">
+          Hey! This is 25th December!!!! Hurray!!!!!
+          You know what! Santa can be everywhere<br>Then why not to try to be your santa! Let's scroll down<br><br>
+        </h6><br><br>
+      </div>
+      </div>
+
+      <div class="gift">
+        <h1 class="whi">Knock! Knock!<br> 🎅 is Knocking, open all doors to see gifts </h1><br>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="backDoor">
+            <div class="door"></div>
+          </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="backDoor1">
+            <div class="door1"></div>
+          </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="backDoor2">
+              <div class="door2"></div>
+            </div>
+          </div>
+        </div>
+         <div class="row">
+          <div class="col-lg-4">
+            <div class="backDoor3">
+            <div class="door3"></div>
+          </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="backDoor4">
+            <div class="door4"></div>
+          </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="backDoor5">
+              <div class="door5"></div>
+            </div>
+          </div>
+        </div> 
+        </div><br>
+    <div class="rhyme">
+      <div id="mid"><h1 class="whi">Another gift 🥳 </h1><br><br><button class="btn btn-outline-light btn-lg" onclick="typewriter()">Click Here 😁</button></div>
+    <b><div class="whi"><h1 id="bor"></h1></div></b>
+    </div>
+    <div id="cel">
+      <div id="cel_write">
+      <h1 class="whi">This is not a gift. It is a wish I think...<br> Hope there is a slight smile in your face...<br>
+      Believe or not, it is too beautiful when you smile.. <br>Just be Happy😌</h1>
+    </div></div>
+
+    <section id="foot">
+        <h4>Hope You Enjoyed It.<br>These are the previous pages</h4><br>
+        <div class="row mi">
+          <a type="button" class="btn btn-outline-light btn-sm col-lg-3" href="miscellaneous.html">Miscellaneous</a>
+          <a type="button" class="btn btn-outline-light btn-sm col-lg-3" href="index.html">Home</a>
+          <a type="button" class="btn btn-outline-light btn-sm col-lg-3" href="photos.html">Photos</a>
+          <a type="button" class="btn btn-outline-light btn-sm col-lg-3" href="articles.html">Articles</a>
+        </div>
+        <p>© Copyright 2020 LizaRoy</p>
+      </section>
+
+
+<script type="text/javascript">
+  var element = document.querySelector(".door");
+element.addEventListener("click", toggleDoor);
+
+function toggleDoor() {
+  element.classList.toggle("doorOpen");
+}
+var element1 = document.querySelector(".door1");
+element1.addEventListener("click", toggleDoor1);
+
+function toggleDoor1() {
+  element1.classList.toggle("doorOpen1");
+}
+var element2 = document.querySelector(".door2");
+element2.addEventListener("click", toggleDoor2);
+
+function toggleDoor2() {
+  element2.classList.toggle("doorOpen2");
+}
+var element3 = document.querySelector(".door3");
+element3.addEventListener("click", toggleDoor3);
+
+function toggleDoor3() {
+  element3.classList.toggle("doorOpen3");
+}
+var element4 = document.querySelector(".door4");
+element4.addEventListener("click", toggleDoor4);
+
+function toggleDoor4() {
+  element4.classList.toggle("doorOpen4");
+}
+var element5 = document.querySelector(".door5");
+element5.addEventListener("click", toggleDoor5);
+
+function toggleDoor5() {
+  element5.classList.toggle("doorOpen5");
+}
+
+var j = 0;
+    var i = 0;
+    let mar = 0;
+    let b = document.createElement('br');
+    txt1 = `Hi, Liza,`
+    txt = `First of all, Merry Christmas to you. Stay well and happy. I know that it is not a too good one, But in a too short time, I was only able to do this by updating your previous gift. Hope you will enjoy it. Always remember, there is one santa always for you, only  for you. BestFriends Forever 🌚❤️`;
+    var speed = 80;
+    function typewriter() {
+      document.getElementById('mid').remove();
+      var audio = new Audio('jingle_bells.mp3');
+      audio.play();
+      typewriter1();
+    }
+    function typewriter1() {
+      if (j<txt1.length)
+      {
+        document.getElementById("bor").innerHTML += txt1.charAt(j);
+          j++;
+          mar = 0;
+          setTimeout(typewriter1, speed);
+      }
+      else
+      {
+        mar = 1;
+      }
+      
+      if (mar == 1)
+      {
+        document.getElementById("bor").appendChild(b);
+        typewriter2()
+      }
+    }
+
+    function typewriter2() {
+      if (i<txt.length)
+      {
+        document.getElementById("bor").innerHTML += txt.charAt(i);
+          i++;
+          setTimeout(typewriter2, speed);
+      }
+    }
+</script>
+
+  </body>
+</html>
+

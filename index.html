@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<title>
+		Happy Birthday
+	</title>
+	<link rel="icon" type="image/png" href="favi.png">
+</head>
+<body>
+
+	<!--Loading the Bootstrap-->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+	<!--Loading the css file-->
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+	<!--Google fonts-->
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+
+	<!--Navbar-->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<a href="#" class="navbar-brand"><b>Happy Birthday</b></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+
+		<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item"><a href="#" class="nav-link disabled">Home</a></li>
+				<li class="nav-item"><a href="photos.html" class="nav-link">Photos</a></li>
+				<li class="nav-item"><a href="articles.html" class="nav-link">Articles</a></li>
+				<li class="nav-item"><a href="miscellaneous.html" class="nav-link">Miscellaneous</a></li>
+				<li class="nav-item"><a href="xmas.html" class="nav-link">X-Mas</a></li>
+			</ul>
+		</div>
+	</nav>
+	<img src="home.jpg">
+	<div id="write1">
+		<div id="mid"><h1>There is a hidden message for you. To explore</h1><br><br><button class="btn btn-outline-light btn-lg" onclick="typewriter()">Click Here 😁</button></div>
+		<b><div id="write"><h1 id="bor"></h1></div></b>
+		<div class="foim"><img src="beauty13.jpeg" class="circ"></div>
+		<div class="row mi">
+			<a type="button" class="btn btn-outline-light col-lg-3 col-md-12" href="photos.html">Photos</a>
+			<a type="button" class="btn btn-outline-light col-lg-3 col-md-12" href="articles.html">Articles</a>
+			<a type="button" class="btn btn-outline-light col-lg-3 col-md-12" href="miscellaneous.html">Miscellaneous</a>
+			<a type="button" class="btn btn-outline-light col-lg-3 col-md-12" href="xmas.html">X-Mas</a>
+		</div>
+	</div>
+	<section id="foot">
+		<h4>Hope You Enjoyed It.<br>Go To Other pages Fore More Surprises</h4><br>
+		<p>© Copyright 2020 LizaRoy</p>
+	</section>
+	<script type="text/javascript">
+		var j = 0;
+		var i = 0;
+		let mar = 0;
+		let b = document.createElement('br');
+		txt1 = `Hi, Liza,`
+		txt = `A friend's birthday is the most memorable event for his friend. Specially, when the matter comes for the Best Friend.
+		I know, I am not good in making websites but I tried.
+		Pardon me if there is any mistakes. Hope you will enjoy it 🙂`;
+		var speed = 80;
+		function typewriter() {
+			document.getElementById('mid').remove();
+			typewriter1();
+		}
+		function typewriter1() {
+			if (j<txt1.length)
+			{
+				document.getElementById("bor").innerHTML += txt1.charAt(j);
+    			j++;
+    			mar = 0;
+    			setTimeout(typewriter1, speed);
+			}
+			else
+			{
+				mar = 1;
+			}
+			
+			if (mar == 1)
+			{
+				document.getElementById("bor").appendChild(b);
+				typewriter2()
+			}
+		}
+
+		function typewriter2() {
+			if (i<txt.length)
+			{
+				document.getElementById("bor").innerHTML += txt.charAt(i);
+    			i++;
+    			setTimeout(typewriter2, speed);
+			}
+		}
+		
+	</script>
+</body>
+</html>
